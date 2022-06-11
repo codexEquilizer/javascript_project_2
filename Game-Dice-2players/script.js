@@ -17,7 +17,6 @@ const player1El = document.querySelector('.player--1');
 
 let scores, currentScore, activePlayer, playing;
 
-//comment..
 
 const init = function () {
     //starting conditions
