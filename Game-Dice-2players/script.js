@@ -98,3 +98,5 @@ btnHold.addEventListener('click', function () {
 
 //new game functionality
 btnNew.addEventListener('click', init);
+
+//this is a sample comment to check the git repo status
