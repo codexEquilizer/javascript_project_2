@@ -62,7 +62,7 @@ btnRoll.addEventListener('click', function () {
         diceEl.classList.remove('hidden');
         diceEl.src = `dice-${dice}.png`     //diceEl is selecing the element of dice class and change the src of the element
 
-        //Check for rolled 1: if true, switch player | 
+        //Check for rolled 1: if true, switch player 
         if (dice !== 1) {
             currentScore += dice;
             document.getElementById(`current--${activePlayer}`).textContent = currentScore;
